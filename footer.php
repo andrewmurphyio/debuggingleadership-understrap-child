@@ -46,10 +46,13 @@ $container = get_theme_mod( 'understrap_container_type' );
 <script async type="text/javascript" src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=R7s4QR"></script>
 
 <script type="text/javascript">
-	document.querySelector('.SRigKh').addEventListener('click', function (){
-		window._klOnsite = window._klOnsite || []; 
-		window._klOnsite.push(['openForm', 'SRigKh']);
-	});
+	var el = document.querySelector('.SRigKh');
+	if (el) {
+		el.addEventListener('click', function (){
+			window._klOnsite = window._klOnsite || []; 
+			window._klOnsite.push(['openForm', 'SRigKh']);
+		});
+	}
 </script>
 
 
