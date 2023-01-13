@@ -16904,6 +16904,7 @@ label {
 .banner-section {
   background-image: url("./../img/background.svg");
   background-size: cover;
+  background-position-y: center;
   min-height: 1000px;
   padding-top: 240px;
   color: #fff;

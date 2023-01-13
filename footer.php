@@ -29,12 +29,12 @@ $container = get_theme_mod( 'understrap_container_type' );
 		<li>
 		<a href="https://www.linkedin.com/in/andrewamurphy/" class="button button--small"><img src="https://andrewmurphy.io/assets/img/linked-in-logo@2x.png" alt="" width="18" /></a>
 		</li>
-		<li>
+		<!-- <li>
 		<a href="https://twitter.com/andrewmurphyio" class="button button--small"><img src="https://andrewmurphy.io/assets/img/twitter@2x.png" alt="" width="18" /></a>
-		</li>
+		</li> -->
 	</ul>
 	<ul>
-		<li>&copy; Copyright 2022, Andrew Murphy</li>
+		<li>&copy; Copyright 2023, Andrew Murphy</li>
 		<li><a href="/privacy-policy/">Privacy Policy</a></li>
 		<li><a href="/terms-of-use/">Terms of Use</a></li>
 	</ul>
