@@ -6745,9 +6745,9 @@
 
 	// Add your custom JS here.
 	//TOGGLE CLICK
-	console.log("custom javascript");
+	// console.log("custom javascript");
 	jQuery('.navbar-toggle').click(function () {
-	  console.log("navbar-toggle click");
+	  // console.log("navbar-toggle click");
 	  const self = jQuery(this);
 	  jQuery('.navigation').addClass('d-block');
 	  jQuery(this).toggleClass('active');
