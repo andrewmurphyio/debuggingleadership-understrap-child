@@ -2,7 +2,7 @@
 /**
  * Understrap Child Theme functions and definitions
  *
- * @package UnderstrapChild
+ * @package DebbugingLeadershipUnderstrapChild
  */
 
 // Exit if accessed directly.
@@ -86,3 +86,15 @@ function understrap_child_customize_controls_js() {
 	);
 }
 add_action( 'customize_controls_enqueue_scripts', 'understrap_child_customize_controls_js' );
+/**
+ * Remove the breadcrumbs 
+ */
+add_action( 'init', 'woo_remove_wc_breadcrumbs' );
+function woo_remove_wc_breadcrumbs() {
+    remove_action( 'woocommerce_before_main_content', 'woocommerce_breadcrumb', 20, 0 );
+    remove_action( 'storefront_before_content', 'woocommerce_breadcrumb', 10 );
+}
+
+
+@ini_set( 'upload_max_size' , '512M' );
+@ini_set( 'post_max_size', '512M');

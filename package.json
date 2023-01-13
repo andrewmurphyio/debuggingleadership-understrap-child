@@ -1,5 +1,5 @@
 {
-  "name": "understrap-child",
+  "name": "debuggingleadership-understrap-child",
   "version": "1.2.0",
   "description": "Basic Child Theme for Understrap Theme Framework: https://github.com/understrap/understrap",
   "main": "index.js",
@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/understrap/understrap-child.git"
+    "url": "https://github.com/andrewmurphyio/debuggingleadership-understrap-child"
   },
   "keywords": [
     "wordpress",
@@ -43,6 +43,7 @@
   "homepage": "https://understrap.com",
   "dependencies": {},
   "devDependencies": {
+    "andrewmurphyio": "github:andrewm1986/andrewmurphyio",
     "@babel/core": "^7.19.6",
     "@babel/preset-env": "^7.19.4",
     "@popperjs/core": "^2.11.6",
@@ -66,6 +67,8 @@
     "rollup": "^3.2.5",
     "sass": "^1.56.0",
     "terser": "^5.15.1",
-    "understrap": "github:understrap/understrap#develop"
+    "understrap": "github:understrap/understrap#develop",
+    "owl.carousel": "^2.3.4",
+    "popper.js": "^1.15.0"
   }
 }
