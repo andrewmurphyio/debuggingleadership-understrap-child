@@ -24,7 +24,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 	</div>
 	<ul class="btn-links">
 		<li>
-		<a href="https://serena613460.typeform.com/to/oBYRFWtq" class="button button--small">Let's Talk</a>
+		<a href="/enquire/" class="button button--small">Let's Talk</a>
 		</li>
 		<li>
 		<a href="https://www.linkedin.com/in/andrewamurphy/" class="button button--small"><img src="https://andrewmurphy.io/assets/img/linked-in-logo@2x.png" alt="" width="18" /></a>
