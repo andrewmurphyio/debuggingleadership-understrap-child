@@ -17652,4 +17652,20 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   border: 1px solid #e9ecef;
 }
 
+.page-template-blueheader .banner-section {
+  background-image: url(https://andrewmurphy.io/assets/img/background.svg) !important;
+  min-height: 800px !important;
+}
+
+@media only screen and (max-width: 650px) {
+  .banner-section {
+    min-height: 640px !important;
+  }
+}
+@media only screen and (min-width: 1650px) {
+  .banner-section {
+    padding-top: 150px !important;
+  }
+}
+
 /*# sourceMappingURL=child-theme.css.map */

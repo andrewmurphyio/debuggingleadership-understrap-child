@@ -12,3 +12,30 @@
 @import "assets/understrap/theme/colors";           // <-------- This creates the necessary bootstrap color classes.
 @import "assets/understrap/theme/blocks";           // <-------- This adds Bootstrap styles to blocks.
 @import "assets/understrap/theme/contact-form7";    // <-------- Contact Form 7 - Bootstrap 4 support
+
+
+.page-template-blueheader .banner-section {
+    background-image: url(https://andrewmurphy.io/assets/img/background.svg) !important;
+    min-height: 800px !important;
+}
+@media only screen and (max-width: 650px) {
+    .banner-section {
+        min-height: 640px !important;
+    }
+}
+
+@media only screen and (min-width: 1650px) {
+    .banner-section {
+        padding-top: 150px !important;
+    }
+}
+
+// .ld-course-list-items .ld_course_grid .thumbnail.course {
+//     height: 720px !important;
+// }
+// .ld-course-list-items .ld_course_grid .ld_course_grid_button {
+//     width: calc(100% - 10px) !important;
+//     position: absolute !important;
+//     bottom: 5px !important;
+//     left: 5px !important;
+// }
