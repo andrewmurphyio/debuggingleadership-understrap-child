@@ -16,16 +16,20 @@
 
 .page-template-blueheader .banner-section {
     background-image: url(https://andrewmurphy.io/assets/img/background.svg) !important;
-    min-height: 800px !important;
+    min-height: 875px !important;
 }
+
 @media only screen and (max-width: 650px) {
-    .banner-section {
+    .page-template-blueheader .banner-section {
         min-height: 640px !important;
+        // min-height: 540px !important;
+        // padding-top: 50px;
+        // margin-bottom: 20px;
     }
 }
 
 @media only screen and (min-width: 1650px) {
-    .banner-section {
+    .page-template-blueheader .banner-section {
         padding-top: 150px !important;
     }
 }
@@ -39,3 +43,7 @@
 //     bottom: 5px !important;
 //     left: 5px !important;
 // }
+
+.navigation li {
+    margin-left: 40px !important;
+}

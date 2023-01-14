@@ -17211,6 +17211,132 @@ label {
     height: auto;
   }
 }
+.header-section {
+  text-align: center;
+  padding: 50px 0 350px;
+  background-image: url("./../img/path-4.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+  background-size: cover;
+}
+.header-section__top {
+  position: relative;
+}
+.header-section__top h1, .header-section__top .h1 {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin-bottom: 15px;
+}
+.header-section__top h4, .header-section__top .h4 {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 3.2px;
+  text-transform: uppercase;
+}
+.header-section__top .button {
+  padding: 9px 35px 12px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.header-section__text-block {
+  padding: 50px 0 20px;
+  max-width: 685px;
+  margin: 0 auto;
+}
+
+.cv-course-sales {
+  padding-top: 100px;
+  margin-top: -200px;
+}
+.cv-course-sales .sub-title {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+.cv-course-sales .s-mt {
+  margin-top: 100px;
+}
+.cv-course-sales__reason h5, .cv-course-sales__reason .h5 {
+  margin: 25px 0 40px;
+}
+.cv-course-sales__overview {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.cv-course-sales__overview p {
+  line-height: 1.7;
+}
+.cv-course-sales__interview ul {
+  margin-left: 0 !important;
+}
+.cv-course-sales__andrew h2, .cv-course-sales__andrew .h2 {
+  margin-bottom: 5px;
+}
+.cv-course-sales__breakdown .col-lg-4 {
+  margin-bottom: 50px;
+}
+.cv-course-sales__sign-up {
+  max-width: 946px;
+  border-radius: 30px;
+  box-shadow: 0 20px 40px 0 rgba(92, 103, 153, 0.2), 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+  margin: 10px auto 0;
+  padding: 50px;
+  text-align: center;
+  background-color: #fff;
+}
+.cv-course-sales__sign-up p {
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+.cv-course-sales__sign-up .button {
+  margin-top: 20px;
+}
+
+@media (max-width: 992px) {
+  .header-section .button:not(.button--red) {
+    display: none;
+  }
+  .cv-course-sales figure {
+    margin-top: 5rem;
+  }
+  .cv-course-sales .white-box-list__items {
+    padding-top: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .header-section {
+    padding-bottom: 200px;
+  }
+  .cv-course-sales {
+    margin-top: -150px;
+  }
+  .cv-course-sales figure {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 575px) {
+  .header-section__text-block {
+    padding: 20px 0;
+  }
+  .cv-course-sales .sub-title {
+    font-size: 20px;
+  }
+  .cv-course-sales .with-top-gap {
+    padding-top: 50px;
+  }
+  .cv-course-sales .white-box-list__items {
+    padding-top: 0;
+  }
+  .cv-course-sales__sign-up {
+    padding: 30px 20px;
+  }
+  .cv-course-sales__sign-up p {
+    font-size: 12px;
+  }
+}
 .dropdown-menu {
   border: none;
 }
@@ -17654,18 +17780,21 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 
 .page-template-blueheader .banner-section {
   background-image: url(https://andrewmurphy.io/assets/img/background.svg) !important;
-  min-height: 800px !important;
+  min-height: 875px !important;
 }
 
 @media only screen and (max-width: 650px) {
-  .banner-section {
+  .page-template-blueheader .banner-section {
     min-height: 640px !important;
   }
 }
 @media only screen and (min-width: 1650px) {
-  .banner-section {
+  .page-template-blueheader .banner-section {
     padding-top: 150px !important;
   }
+}
+.navigation li {
+  margin-left: 40px !important;
 }
 
 /*# sourceMappingURL=child-theme.css.map */
