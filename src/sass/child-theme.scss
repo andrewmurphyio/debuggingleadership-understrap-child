@@ -48,12 +48,16 @@
     margin-left: 40px !important;
 }
 
-body.postid-1430 #content {
+body.postid-1430 #content, body.postid-1467 #content, body.postid-1428 #content {
     width: 100%;
     max-width: none;
     padding: 0;
 }
 
-.learndash-shortcode-wrap-course_content-1430_1 {
+.learndash-shortcode-wrap-course_content-1430_1, .learndash-shortcode-wrap-course_content-1467_1, .learndash-shortcode-wrap-course_content-1428_1 {
+    display: none;
+}
+
+.learndash-cpt-groups .post-navigation {
     display: none;
 }
